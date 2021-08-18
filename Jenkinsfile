@@ -6,8 +6,6 @@ pipeline {
                 sh 'echo build'
             }
         }
-    }
-    stages {
         stage('Test') {
             steps {
                 sh 'echo test'
