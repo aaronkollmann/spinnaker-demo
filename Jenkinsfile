@@ -4,7 +4,6 @@ pipeline {
         dockerfile {
             filename 'Dockerfile'
             dir '.'
-            label 'aaronkollmann/teamspeak3-bot'
         }
     }
     stages {
